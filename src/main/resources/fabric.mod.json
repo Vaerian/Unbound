@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "unbound",
+  "version": "${version}",
+  "name": "Unbound",
+  "description": "",
+  "authors": [
+    "Vayrien",
+    "CumulusMC"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/CumulusMC/Unbound"
+  },
+  "license": "MIT",
+  "icon": "assets/unbound/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.cumulusmc.unbound.Unbound"
+    ]
+  },
+  "mixins": [
+    "unbound.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  },
+  "suggests": {
+    "modmenu": "*"
+  }
+}
