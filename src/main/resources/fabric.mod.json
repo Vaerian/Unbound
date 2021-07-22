@@ -18,6 +18,9 @@
   "entrypoints": {
     "main": [
       "com.cumulusmc.unbound.Unbound"
+    ],
+    "client": [
+      "com.cumulusmc.unbound.client.UnboundClient"
     ]
   },
   "mixins": [

@@ -1,11 +1,12 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "com.cumulusmc.cumulus.mixin",
+  "package": "com.cumulusmc.unbound.mixin",
   "compatibilityLevel": "JAVA_16",
   "mixins": [
   ],
   "client": [
+    "PlayerEntityRendererMixin"
   ],
   "injectors": {
     "defaultRequire": 1

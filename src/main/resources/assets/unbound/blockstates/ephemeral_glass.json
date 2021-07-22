@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "unbound:block/ephemeral_glass"
+    }
+  }
+}
